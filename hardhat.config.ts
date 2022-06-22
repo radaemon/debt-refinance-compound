@@ -34,7 +34,7 @@ export default {
     hardhat: {},
     rinkeby: {
       url: process.env.RINKEBY_ALCHEMY_URL,
-      accounts: [process.env.RINKEBY_PRIVATE_KEY],
+      accounts: [process.env.DEV_PRIVATE_KEY],
     },
   },
   solidity: {
